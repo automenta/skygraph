@@ -27,14 +27,14 @@ public class HelloInput extends SimpleApplication {
 
     }
 
-    @Override
-    public void start() {
-        settings = new AppSettings(true);
-        settings.setRenderer(JOGL_OPENGL_BACKWARD_COMPATIBLE);
-
-        super.start();
-
-    }
+//    @Override
+//    public void start() {
+//        settings = new AppSettings(true);
+//        settings.setRenderer(JOGL_OPENGL_FORWARD_COMPATIBLE);
+//
+//        super.start();
+//
+//    }
 
     public static void main(String[] args) {
         HelloInput app = new HelloInput();
