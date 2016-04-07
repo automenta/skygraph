@@ -52,7 +52,7 @@ public class HelloInput extends SimpleApplication {
         mat.setColor("Color", ColorRGBA.Blue);
         player.setMaterial(mat);
         rootNode.attachChild(player);
-        initKeys(); // load my custom keybinding
+        //initKeys(); // load my custom keybinding
     }
 
     /**
